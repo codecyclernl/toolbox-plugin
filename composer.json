@@ -1,17 +1,17 @@
 {
-  "name": "kloos/oc-toolbox-plugin",
+  "name": "codecycler/oc-toolbox-plugin",
   "type": "october-plugin",
   "description": "Toolbox plugin for October CMS",
-  "keywords": ["october", "octobercms", "toolbox"],
+  "keywords": ["october", "octobercms", "toolbox", "codecycler"],
   "license": "MIT",
   "authors": [
     {
       "name": "Sebastiaan Kloos",
-      "email": "sebastiaan@kloos.dev"
+      "email": "sebastiaan@codecycler.com"
     }
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.4",
     "composer/installers": "~1.0",
     "lorisleiva/laravel-actions": "v1.2.0",
     "spatie/ray": "dev-master"
