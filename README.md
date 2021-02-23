@@ -3,4 +3,4 @@ Toolbox plugin for October CMS
 
 Check the documentation at:
 
-[Documentation](https://wiki.kloos.support/7b64cff36c8b4b9d99078de04094925b)
+[Documentation](https://docs.codecycler.com/oc-toolbox-plugin-7be933fb8e4641f2b17ba5878ba62690)
