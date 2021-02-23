@@ -1,7 +1,7 @@
-<?php namespace Kloos\Toolbox\Classes\Extend\Facade;
+<?php namespace Codecycler\Toolbox\Classes\Extend\Facade;
 
 use Illuminate\Support\Facades\Facade;
-use Kloos\Toolbox\Classes\Extend\ActionManager;
+use Codecycler\Toolbox\Classes\Extend\ActionManager;
 
 class Actions extends Facade
 {

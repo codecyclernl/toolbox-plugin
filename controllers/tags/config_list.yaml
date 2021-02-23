@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/kloos/toolbox/models/tag/columns.yaml
+list: $/codecycler/toolbox/models/tag/columns.yaml
 
 # Model Class name
-modelClass: Kloos\Toolbox\Models\Tag
+modelClass: Codecycler\Toolbox\Models\Tag
 
 # List Title
 title: Manage Tags
 
 # Link URL for each record
-recordUrl: kloos/toolbox/tags/update/:id
+recordUrl: codecycler/toolbox/tags/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records

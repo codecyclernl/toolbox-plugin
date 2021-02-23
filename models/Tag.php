@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Models;
+<?php namespace Codecycler\Toolbox\Models;
 
 use Model;
 
@@ -12,7 +12,7 @@ class Tag extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'kloos_toolbox_tags';
+    public $table = 'codecycler_toolbox_tags';
 
     /**
      * @var array Guarded fields

@@ -1,7 +1,7 @@
-<?php namespace Kloos\Toolbox\Classes\Item;
+<?php namespace Codecycler\Toolbox\Classes\Item;
 
 use October\Rain\Exception\ApplicationException;
-use Kloos\Workflow\Models\Workflow as WorkflowModel;
+use Codecycler\Workflow\Models\Workflow as WorkflowModel;
 
 abstract class AbstractModelItem
 {

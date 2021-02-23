@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Updates;
+<?php namespace Codecycler\Toolbox\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;
@@ -8,7 +8,7 @@ class CreateTagsTaggablesTable extends Migration
 {
     public function up()
     {
-        Schema::create('kloos_toolbox_tags_taggables', function (Blueprint $table) {
+        Schema::create('codecycler_toolbox_tags_taggables', function (Blueprint $table) {
             $table->engine = 'InnoDB';
 
             $table->integer('tag_id');
@@ -19,6 +19,6 @@ class CreateTagsTaggablesTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('kloos_toolbox_tags_taggables');
+        Schema::dropIfExists('codecycler_toolbox_tags_taggables');
     }
 }

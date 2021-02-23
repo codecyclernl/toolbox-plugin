@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Behaviors;
+<?php namespace Codecycler\Toolbox\Behaviors;
 
 use Backend\Classes\ControllerBehavior;
 use October\Rain\Extension\ExtensionBase;

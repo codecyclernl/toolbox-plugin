@@ -1,9 +1,9 @@
-<?php namespace Kloos\Toolbox\Components;
+<?php namespace Codecycler\Toolbox\Components;
 
 use Flash;
 use October\Rain\Parse\Yaml;
 use Cms\Classes\ComponentBase;
-use Kloos\Toolbox\Classes\Helper\ClassName;
+use Codecycler\Toolbox\Classes\Helper\ClassName;
 
 class FrontendForm extends ComponentBase
 {

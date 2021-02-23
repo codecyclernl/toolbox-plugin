@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\FormWidgets;
+<?php namespace Codecycler\Toolbox\FormWidgets;
 
 use Backend\Classes\FormWidgetBase;
 
@@ -10,7 +10,7 @@ class PropertyInspector extends FormWidgetBase
     /**
      * @inheritDoc
      */
-    protected $defaultAlias = 'kloos_toolbox_property_inspector';
+    protected $defaultAlias = 'codecycler_toolbox_property_inspector';
 
     public $properties = [];
 

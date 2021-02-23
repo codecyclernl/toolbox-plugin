@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Classes\Extend;
+<?php namespace Codecycler\Toolbox\Classes\Extend;
 
 class ActionManager extends \Lorisleiva\Actions\ActionManager
 {

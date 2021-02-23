@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Controllers;
+<?php namespace Codecycler\Toolbox\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
@@ -31,7 +31,7 @@ class Tags extends Controller
      * @var string[] The required permissions to view this controller
      */
     public $requiredPermissions = [
-        'kloos.toolbox.manage_tags'
+        'codecycler.toolbox.manage_tags'
     ];
 
     public function __construct()
@@ -39,6 +39,6 @@ class Tags extends Controller
         parent::__construct();
 
         BackendMenu::setContext('October.System', 'system', 'settings');
-        SettingsManager::setContext('Kloos.Toolbox', 'tags');
+        SettingsManager::setContext('Codecycler.Toolbox', 'tags');
     }
 }

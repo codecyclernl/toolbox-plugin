@@ -1,8 +1,8 @@
-<?php namespace Kloos\Toolbox\Classes\Extend;
+<?php namespace Codecycler\Toolbox\Classes\Extend;
 
 use System\Classes\PluginManager;
 use October\Rain\Support\Traits\Singleton;
-use Kloos\Toolbox\Classes\Extend\Facade\Actions;
+use Codecycler\Toolbox\Classes\Extend\Facade\Actions;
 
 class ActionPathHelper
 {

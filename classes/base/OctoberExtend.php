@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Classes\Base;
+<?php namespace Codecycler\Toolbox\Classes\Base;
 
 use Yaml;
 use Event;

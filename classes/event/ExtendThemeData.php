@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Classes\Event;
+<?php namespace Codecycler\Toolbox\Classes\Event;
 
 use Cms\Models\ThemeData;
 use RainLab\Pages\Classes\Menu;

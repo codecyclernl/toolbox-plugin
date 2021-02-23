@@ -1,7 +1,7 @@
-<?php namespace Kloos\Toolbox\Classes\Behavior;
+<?php namespace Codecycler\Toolbox\Classes\Behavior;
 
-use Kloos\Toolbox\Models\Tag;
 use October\Rain\Database\Model;
+use Codecycler\Toolbox\Models\Tag;
 use October\Rain\Extension\ExtensionBase;
 
 class HasTags extends ExtensionBase
@@ -15,7 +15,7 @@ class HasTags extends ExtensionBase
             $tagModel->morphedByMany[strtolower($modelName) . 's'] = [
                 $className,
                 'name' => 'taggable',
-                'table' => 'kloos_toolbox_tags_taggables',
+                'table' => 'codecycler_toolbox_tags_taggables',
             ];
         });
     }

@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Classes\Helper;
+<?php namespace Codecycler\Toolbox\Classes\Helper;
 
 class ClassName
 {

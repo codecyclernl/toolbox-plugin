@@ -1,4 +1,4 @@
-<?php namespace Kloos\Toolbox\Components;
+<?php namespace Codecycler\Toolbox\Components;
 
 use Cms\Classes\ComponentBase;
 
@@ -19,10 +19,10 @@ class AjaxPanel extends ComponentBase
 
     public function prepareAssets()
     {
-        $this->addCss('/plugins/kloos/toolbox/components/ajaxpanel/assets/css/jquery-ui.min.css');
-        $this->addCss('/plugins/kloos/toolbox/components/ajaxpanel/assets/css/panel.css');
-        $this->addJs('/plugins/kloos/toolbox/components/ajaxpanel/assets/js/jquery-ui.min.js');
-        $this->addJs('/plugins/kloos/toolbox/components/ajaxpanel/assets/js/panel.js');
+        $this->addCss('/plugins/codecycler/toolbox/components/ajaxpanel/assets/css/jquery-ui.min.css');
+        $this->addCss('/plugins/codecycler/toolbox/components/ajaxpanel/assets/css/panel.css');
+        $this->addJs('/plugins/codecycler/toolbox/components/ajaxpanel/assets/js/jquery-ui.min.js');
+        $this->addJs('/plugins/codecycler/toolbox/components/ajaxpanel/assets/js/panel.js');
     }
 
     public function render($id, $handler, $position = 'right')
