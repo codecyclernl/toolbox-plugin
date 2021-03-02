@@ -41,10 +41,9 @@ class OctoberExtend
     {
         $this->extendFormFields();
         $this->extendRelationConfig();
-
         $this->extendRelations();
-
         $this->extendSubscribe();
+        $this->extendMethods();
     }
 
     public function addFields()
@@ -73,6 +72,11 @@ class OctoberExtend
     }
 
     public function belongsTo()
+    {
+        return [];
+    }
+
+    public function methods()
     {
         return [];
     }
@@ -166,6 +170,18 @@ class OctoberExtend
             $model->belongsToMany = array_merge($model->belongsToMany, $belongsToMany);
             $model->hasMany = array_merge($model->hasMany, $hasMany);
             $model->belongsTo = array_merge($model->belongsTo, $belongsTo);
+        });
+    }
+
+    private function extendMethods()
+    {
+        $model = $this->model;
+        $methods = $this->methods();
+
+        $model::extend(function ($model) use ($methods) {
+            foreach ($methods as $functionName => $method) {
+                $model->addDynamicMethod($functionName, $method);
+            }
         });
     }
 }
