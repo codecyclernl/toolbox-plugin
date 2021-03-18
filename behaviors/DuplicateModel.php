@@ -39,5 +39,9 @@ class DuplicateModel extends ControllerBehavior
         }
 
         $copy->save();
+
+        if (method_exists($this->controller, 'afterDuplicate')) {
+            $this->controller->afterDuplicate($copy);
+        }
     }
 }
