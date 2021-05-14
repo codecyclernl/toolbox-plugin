@@ -9,3 +9,5 @@
   - update_tags_table.php
 2.0.0:
   - Changed vendor to Codecycler
+2.0.1:
+  - Bumped up the version number for new release
