@@ -17,7 +17,7 @@ class DuplicateModel extends ControllerBehavior
         $record = $this->getConfig('modelClass')::find($id);
 
         if ($record) {
-            $this->duplicateRecord($record);
+            return $this->duplicateRecord($record);
         }
     }
 
@@ -26,7 +26,7 @@ class DuplicateModel extends ControllerBehavior
         $record = $this->getConfig('modelClass')::find($id);
 
         if ($record) {
-            $this->duplicateRecord($record);
+            return $this->duplicateRecord($record);
         }
     }
 
