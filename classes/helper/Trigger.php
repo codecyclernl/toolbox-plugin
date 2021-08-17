@@ -38,6 +38,9 @@ class Trigger
             case "unchecked":
                 $this->checkIsUnchecked();
                 break;
+            case "contains":
+                $this->checkContains();
+                break;
         }
 
         return $this->result;
@@ -90,5 +93,11 @@ class Trigger
         if (!$this->valueToCheck) {
             $this->result = true;
         }
+    }
+
+    protected function checkContains()
+    {
+        $value = json_decode($this->valueToCheck, true);
+        $this->result = $value[$this->trueValue];
     }
 }
