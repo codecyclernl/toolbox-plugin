@@ -1,5 +1,5 @@
 {
-  "name": "codecycler/oc-toolbox-plugin",
+  "name": "codecycler/toolbox-plugin",
   "type": "october-plugin",
   "description": "Toolbox plugin for October CMS",
   "keywords": ["october", "octobercms", "toolbox", "codecycler"],
